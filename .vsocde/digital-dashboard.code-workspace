@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "name": "Project Root (./)",
+      "path": "../"
+    },
+    {
+      "name": "Next.js Frontend (./client)",
+      "path": "../client"
+    },
+    {
+      "name": "Express.js Backend (./server)",
+      "path": "../server"
+    }
+  ],
+  "settings": {}
+}
