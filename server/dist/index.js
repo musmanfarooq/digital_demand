@@ -17,10 +17,14 @@ dotenv.config();
 app.use(bodyParser.json());
 export const pool = mysql.createPool({
     host: "localhost",
-    user: process.env.USERNAME,
-    password: process.env.PASSWORD,
-    database: process.env.DATABASE,
-    port: parseInt(process.env.SQLPORT),
+    // user: process.env.USERNAME,
+    // password: process.env.PASSWORD,
+    // database: process.env.DATABASE,
+    // port: parseInt(process.env.SQLPORT),
+    user: "root",
+    password: "admin@123",
+    database: "digital_demand",
+    port: 3306
 });
 pool.getConnection((err, connection) => {
     if (err) {

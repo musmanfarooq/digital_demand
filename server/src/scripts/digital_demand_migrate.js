@@ -2,9 +2,13 @@ import mysql from "mysql2";
 
 // Create a connection to the MySQL server
 const connection = mysql.createConnection({
-  user: process.env.USERNAME,
-  password: process.env.PASSWORD ,
-  port: parseInt(process.env.SQLPORT),
+  // user: process.env.USERNAME,
+  // password: process.env.PASSWORD ,
+  // port: parseInt(process.env.SQLPORT),
+  user: "root",
+  password: "admin@123",
+  // database: "digital_demand",
+  port: 3306
 });
 
 console.log(connection)
