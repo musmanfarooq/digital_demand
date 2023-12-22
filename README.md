@@ -5,24 +5,24 @@
 * Visual Studio Code or any other IDE
 
 ## Project Setup
-1. Clone this project [https://github.com/tarifica/digital_demand.git](https://github.com/tarifica/digital_demand.git)
-2. Open workspace form the VS Code
+1. Clone this project [https://github.com/musmanfarooq/digital_demand.git](https://github.com/musmanfarooq/digital_demand.git)
+2. Open the workspace from the VS Code
    * Click on Files
    * Click on Open Workspace form files
-   * And choose digital-dashboard.code.workspace files present in the root
-3. Navigate to client folder by either selecting it form the terminal for run this command in the terminal
+   * And choose digital-dashboard. code.workspace files present in the root
+3. Navigate to the client folder by selecting it from the terminal to run this command in the terminal
   ```bash
   cd client
   ```
-4. Install dependencie
+4. Install dependencies
   ```bash
   npm install 
   ```
-5. Now navigate to the server folder by using VS Code terminal or use this 
+5. Now navigate to the server folder by using the VS Code terminal or use this 
   ```bash
-  cd client
+  cd server
   ```
-6. Install dependencie
+6. Install dependencies
   ```bash
   npm install 
   ```
@@ -48,7 +48,7 @@
 
 7. Setting up DataBase
   * MySQL is needed for the Database
-  * Fill the Following fileds in the ```.env``` file according to your MySQL
+  * Fill the Following fields in the ```.env``` file according to your MySQL
   ```bash
 
   USERNAME = 
@@ -57,17 +57,17 @@
   SQLPORT = 
 
   ```
-  * Run the command to setup Database
+  * Run the command to setup the Database
     ```bash
     npm run migrate
     ```
 ## Project Startup
-1. Use the following commmand to run the client folder
+1. Use the following command to run the client folder
    ```bash
    npm run dev
    ```
-   * Create a new account form the dashboard
-2. Use these comand in the server folder to run the server
+   * Create a new account from the dashboard
+2. Use these commands in the server folder to run the server
    ```bash
    npm run build
    npm run dev
